@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: gray;
+  padding: 4px 0;
+}
+
+
+ul {
+  display: flex;
+}
+
+ul > li {
+  padding: 8px;
+}
+
+
+.content > aside {
+  background: rgb(116, 101, 101);
+  width: 200px;
+}
+.content > main {
+  background: gray;
+  height: 500px;
+  flex-grow: 1;
+}
+.content > .ad {
+  background: rgb(104, 96, 96);
+  width: 100px;
+}
+.imageList {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imageList > .x {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -12px;
+}
