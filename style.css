@@ -9,6 +9,9 @@ ol {
   list-style: none;
 }
 
+img {
+  max-width: 100%;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -16,7 +19,15 @@ ol {
   background: gray;
   padding: 4px 0;
 }
+.logo {
+  display: flex;
+  align-items: center;
+}
 
+.logo > img {
+  height: 40px;
+  vertical-align: middle;
+}
 
 ul {
   display: flex;
@@ -26,7 +37,13 @@ ul > li {
   padding: 8px;
 }
 
-
+.content {
+  display: flex;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
 .content > aside {
   background: rgb(116, 101, 101);
   width: 200px;
@@ -53,4 +70,11 @@ ul > li {
   display: flex;
   flex-wrap: wrap;
   margin-right: -12px;
+}
+.image {
+  width: 216px;
+  height: 216px;
+  margin-bottom: 10px;
+  background: rgb(99, 69, 69);
+  margin-right: 12px;
 }
